@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(to right, blue, white);
+    height: 150vh;
+    /* display: flex; */
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    /* text-align: left; */
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-radius: 5px;
+    padding: 85px;
+    /* width: 35%; */
+    margin-top: 50px;
+    margin-left: 400px;
+    margin-right: 400px;
+    box-shadow: 25px black;
+    background-color: white;
+    /* height: 400px; */
+    /* line-height: 70px; */
+}
+.top{
+    margin-top: -70px;
+    margin-left: -80px;
+    font-size: 18px;
+    /* border: 1px solid black; */
+    /* line-break: anywhere; */
+}
+.top::after{
+    position: absolute;
+    content: '';
+    width: 36%;
+    height: 1px;
+    background: black;
+    margin-top: 25px;
+    margin-left: -125px;
+
+}
+
+.well{
+    margin-top: -22px;
+    margin-left: -80px;
+    font-size: 18px;
+}
+.well span{
+    font-size: 12px;
+}
+.well p{
+    /* display: flex;
+    justify-content: space-between; */
+    margin-left: 410px;
+    margin-top: -30px;
+    font-size: 20px;
+}
+.well::after{
+    position: absolute;
+    content: '';
+    width: 36%;
+    height: 1px;
+    background: black;
+    margin-top: 5px;
+}
+.words{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-left: -80px;
+}
+.words h3{
+    /* margin-top: 40px;
+    margin-left: -80px; */
+    font-weight: bold;
+    font-size: 18px;
+    /* display: flex; */
+}
+.words span{
+    margin-right: -50px;
+    /* margin-top: -40px; */
+    font-size: 20px;
+
+}
+.words::after{
+    position: absolute;
+    content: '';
+    width: 36%;
+    height: 1px;
+    background: black;
+    margin-top: 22px; 
+}
+.sentences{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-left: -80px;
+}
+.sentences h3{
+    font-weight: bold;
+    font-size: 18px;
+}
+.sentences span{
+    margin-right: -50px; 
+    font-size: 20px;
+}
+.sentences::after{
+    position: absolute;
+    content: '';
+    width: 36%;
+    height: 1px;
+    background: black;
+    margin-top: 22px; 
+}
+.paragraph{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-left: -80px;
+}
+.paragraph h3{
+    font-weight: bold;
+    font-size: 18px;
+}
+.paragraph span{
+    margin-right: -50px; 
+    font-size: 20px; 
+}
+
+.wordinput{
+    margin-top: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: -10px; */
+    /* border: 1px solid black;
+    border-collapse: collapse;
+    border-radius: 5px;
+    background-color: white;
+    margin-left: 400px;
+    margin-right: 400px; */
+}
+.title{
+    font-size: 35px;
+    font-weight: bold;
+}
+.text-input{
+    width: 38%;
+    height: 225px;
+    /* margin-bottom: 25px; */
+    margin-top: 20px;
+    resize: none;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+

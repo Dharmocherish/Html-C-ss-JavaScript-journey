@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    border: 1px solid aliceblue;
+    border-collapse: collapse;
+    background-color: aliceblue;
+    align-items: center;
+    justify-content: center;   
+}
+.page{
+    border: 1px solid white;
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: 7px;
+    margin-top: 20px;
+    width: 50%;
+    height: 600px;
+    margin-bottom: 20px;   
+}
+.notification{
+    margin-top: 15px;
+    margin-left: 12px;
+    font-size: larger;
+    font-weight: bold;
+}
+.notification .small-box{
+    border: 1px solid rgb(24, 24, 146);
+    border-collapse: collapse;
+    border-radius: 5px;
+    background-color: rgb(24, 24, 146);
+    color: white;
+    width: 4%;
+    position: relative;
+    margin-left: 115px;
+    margin-top: -27px;
+}
+.notification .text{
+    margin-left: 524px;
+    margin-top: -13px;
+    opacity: 0.6;
+    font-size: small;
+    font-weight: normal;
+}
+.notification .text:hover{
+    color: rgb(24, 24, 146);
+    cursor: pointer;
+}
+.note{
+    border: 1px solid aliceblue;
+    border-collapse: collapse;
+    background-color: aliceblue;
+    margin-top: 17px;
+    margin-left: 12px;
+    margin-right: 18px;
+    padding: 9px 0;
+    border-radius: 7px;
+}
+.note .note1{
+    font-weight: bold;
+    margin-top: 7px;
+    margin-left: 7px;
+}
+.note .note11{
+    margin-left: 102px;
+    margin-top: -18px;
+    font-weight: lighter;  
+    opacity: 0.6;  
+}
+.note .note12{
+    margin-left: 276px;
+    margin-top: -18px;
+    opacity: 0.6; 
+}
+.note .note12:hover{
+    color: rgb(24, 24, 146);
+    cursor: pointer;
+}
+.note .note13{
+    font-weight: normal;
+    opacity: 0.4;
+}
+.note2{
+    border: 1px solid aliceblue;
+    border-collapse: collapse;
+    background-color: aliceblue;
+    margin-top: 7px;
+    margin-left: 12px;
+    margin-right: 18px;
+    padding: 9px 0;
+    border-radius: 7px;
+    height: 45px;
+}
+.note2 .note21{
+    margin-top: 5px;
+    font-weight: bold;
+    margin-left: 7px;
+}
+.note2 .note22{
+    margin-left: 91px;
+    margin-top: -18px;
+    font-weight: lighter;
+    opacity: 0.6;
+}
+.note2 .note23{
+    font-weight: normal;
+    opacity: 0.4;
+}
+.note3{
+    border: 1px solid aliceblue;
+    border-collapse: collapse;
+    background-color: aliceblue;
+    margin-top: 7px;
+    margin-left: 12px;
+    margin-right: 18px;
+    padding: 9px 0;
+    border-radius: 7px;
+    height: 45px; 
+}
+.note3 .note31{
+    margin-top: 5px;
+    font-weight: bold;
+    margin-left: 7px;
+}
+.note3 .note32{
+    margin-left: 121px;
+    margin-top: -18px;
+    font-weight: lighter;
+    opacity: 0.6; 
+}
+.note3 .note33{
+    margin-left: 266px;
+    margin-top: -18px;
+    color: rgb(24, 24, 146);
+}
+.note3 .note34{
+    font-weight: normal;
+    opacity: 0.4;
+}
+.note4{
+    margin-top: 7px;
+    margin-left: 12px;
+    margin-right: 18px;
+    padding: 9px 0;
+    border-radius: 7px;
+    height: 45px; 
+}
+.note4 .note41{
+    margin-top: 5px;
+    font-weight: bold;
+    margin-left: 7px;
+}
+.note4 .note42{
+    margin-left: 131px;
+    margin-top: -18px;
+    font-weight: lighter;
+    opacity: 0.6; 
+}
+.note4 .note43{
+    font-weight: normal;
+    opacity: 0.4;
+}
+.note4 .note44{
+    margin-top: 7px;
+    border: 0.5px solid black;
+    border-collapse: collapse;
+    width: 92%;
+    margin-left: 25px;
+    margin-right: 25px;
+    height: 55px;
+}
+.note4 .note44:hover{
+    background-color: aliceblue;
+    cursor: pointer;
+    border: 0.5px solid aliceblue;
+    border-collapse: collapse;
+}
+.note5{
+    margin-top: 65px;
+    margin-left: 12px;
+    margin-right: 18px;
+    padding: 9px 0;
+    border-radius: 7px;
+    height: 45px; 
+}
+.note5 .note51{
+    margin-top: 5px;
+    font-weight: bold;
+    margin-left: 7px;
+}
+.note5 .note52{
+    margin-left: 118px;
+    margin-top: -18px;
+    font-weight: lighter;
+    opacity: 0.6; 
+}
+.note5 .note53{
+    font-weight: normal;
+    opacity: 0.4;
+}
+.note6{
+    margin-top: 7px;
+    margin-left: 12px;
+    margin-right: 18px;
+    padding: 9px 0;
+    border-radius: 7px;
+    height: 55px; 
+}
+.note6 .note61{
+    margin-top: 5px;
+    font-weight: bold;
+    margin-left: 7px;
+}
+.note6 .note62{
+    margin-left: 118px;
+    margin-top: -18px;
+    font-weight: lighter;
+    opacity: 0.6; 
+}
+.note6 .note63{
+    margin-left: 291px;
+    margin-top: -18px;
+    opacity: 0.6; 
+}
+.note6 .rate{
+    margin-left: -292px;
+}
+.note6 .note63:hover{
+    color: rgb(24, 24, 146);
+    cursor: pointer;
+}
+.note6 .note64{
+    font-weight: normal;
+    opacity: 0.4;
+}
+.note7{
+    margin-top: 7px;
+    margin-left: 12px;
+    margin-right: 18px;
+    padding: 9px 0;
+    border-radius: 7px;
+    height: 45px; 
+}
+.note7 .note71{
+    margin-top: 5px;
+    font-weight: bold;
+    margin-left: 7px;
+}
+.note7 .note72{
+    margin-left: 75px;
+    margin-top: -18px;
+    font-weight: lighter;
+    opacity: 0.6; 
+}
+.note7 .note73{
+    margin-left: 165px;
+    margin-top: -18px;
+    opacity: 0.6; 
+}
+.note7 .note73:hover{
+    color: rgb(24, 24, 146);
+    cursor: pointer;
+}
+.note7 .note74{
+    font-weight: normal;
+    opacity: 0.4;
+}

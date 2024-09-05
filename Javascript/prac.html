@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Counter 2......</title>
+    <link rel="stylesheet" href="prac.css">
+</head>
+<body>
+    <div class="box">
+        <div>
+           <h3 class="top">Word Character</h3>  
+        </div>
+        <div class="well">
+            <h3>Words</h3>
+            <span>word with space</span>
+            <p id="word_with_space_no">0</p>
+        </div>
+        <div class="words">
+            <h3>Words</h3>
+            <span class="number" id="words-count">0</span>
+        </div>
+        <div class="sentences">ls -lah
+            <h3> Sentences</h3>
+            <span class="sent" id="sentences-count">0</span>
+        </div>
+        <div class="paragraph">
+            <h3>Paragraph</h3>
+            <span class="para" id="paragraphs-count">0</span>
+        </div>
+    </div>
+
+    <div class="wordinput">
+        <h2 class="title">Word Counter</h2>
+        <p>Create the words and characters in any selected layers</p>
+        <textarea class="text-input" id="input-text" placeholder="Paste text here..."></textarea>
+    </div>
+
+    <script src="prac.js"></script>
+</body>
+</html>

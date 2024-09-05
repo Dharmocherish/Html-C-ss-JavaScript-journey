@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    border: 1px solid whitesmoke;
+    border-collapse: collapse;
+    background-color: whitesmoke;
+    align-items: center;
+    justify-content: center;
+    height: 592px;
+}
+.page{
+    border: 1px solid white;
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: 7px;
+    width: 35%;
+    border-bottom-right-radius: 115px;
+}
+.date .day{
+    margin-top: 20px;
+    margin-left: 20px;
+    opacity: 0.6;
+}
+.date .day label[for="DAY"]{
+    font-size: 10px;
+}
+.date .day input[type="text"]{
+    margin-top: 3px;
+    padding: 5px;
+    width: 13%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-radius: 5px;
+    opacity: 0.5;
+}
+.date .day input::placeholder{
+    position: absolute;
+    font-weight: bolder;    
+}
+.date .month{
+    margin-top: -49px;
+    margin-left: 100px;
+    opacity: 0.6;
+}
+.date .month label[for="MONTH"]{
+    font-size: 10px;
+}
+.date .month input[type="text"]{
+    margin-top: 3px;
+    padding: 5px;
+    width: 17%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-radius: 5px;
+    opacity: 0.5;
+}
+.date .month input::placeholder{
+    position: absolute;
+    font-weight: bolder;    
+}
+.date .year{
+    margin-top: -49px;
+    margin-left: 183px;
+    opacity: 0.6;
+}
+.date .year label[for="YEAR"]{
+    font-size: 10px;
+}
+.date .year input[type="text"]{
+    margin-top: 3px;
+    padding: 5px;
+    width: 21%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-radius: 5px;
+    opacity: 0.5;
+}
+.date .year input::placeholder{
+    position: absolute;
+    font-weight: bolder;    
+}
+.small-circle{
+    border: 1px solid rgb(192, 17, 192);
+    border-collapse: collapse;
+    background-color: rgb(192, 17, 192);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 365px;
+}
+.small-circle::before{
+    position: absolute;
+    content: '';
+    width: 27%;
+    height: 2px;
+    background: #b6b6b6;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 50px;
+    margin-left: 435px;
+    margin-top: -37px;
+    opacity: 0.5;
+}
+.words{
+    margin-left: 20px;
+    margin-top: -20px;
+    
+}
+.words .lines1{
+    color: rgb(192, 17, 192);
+    font-size: 50px;    
+}
+.words .text1{
+    margin-left: 50px;
+    margin-top: -60px;
+    color: black;
+    font-weight: bolder;
+}
+.words .lines2{
+    color: rgb(192, 17, 192);
+    font-size: 50px;    
+}
+.words .text2{
+    margin-left: 50px;
+    margin-top: -60px;
+    color: black;
+    font-weight: bolder;
+}
+.words .lines3{
+    color: rgb(192, 17, 192);
+    font-size: 50px;    
+}
+.words .text3{
+    margin-left: 50px;
+    margin-top: -60px;
+    color: black;
+    font-weight: bolder;
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <style>
+        body{
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            align-content: space-between;
+        }
+        table, tr, td{
+            border: 1px solid none;
+            border-collapse: collapse;
+            padding: 30px;
+            background-color: black;
+            color: white;
+            width: 120px;
+            font-size: x-large;
+            text-align: center;
+            box-sizing: border-box;
+            align-content: space-around;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        th{
+            text-align: right;
+        }
+        td{
+            border-radius: 100%;
+        }
+        tr{
+            align-content: space-around;
+        }
+        .yellow{
+            background-color: orange;
+        }
+        .ash{
+            background-color: darkgrey;
+        }
+        .black{
+            background-color: rgb(27, 24, 24);
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td class="ash">AC</td>
+            <td class="ash">+/-</td>
+            <td class="ash">%</td>
+            <td class="yellow">/</td>
+        </tr>
+        <tr>
+            <td class="black">7</td>
+            <td class="black">8</td>
+            <td class="black">9</td>
+            <td class="yellow">*</td>
+        </tr>
+        <tr>
+            <td class="black">4</td>
+            <td class="black">5</td>
+            <td class="black">6</td>
+            <td class="yellow">-</td>
+        </tr>
+        <tr>
+            <td class="black">1</td>
+            <td class="black">2</td>
+            <td class="black">3</td>
+            <td class="yellow">+</td>
+        </tr>
+        <tr>
+            <td class="black">0</td>
+            <td class="black"></td>
+            <td class="black">.</td>
+            <td class="yellow">=</td>
+        </tr>
+    </table>
+</body>
+</html>
